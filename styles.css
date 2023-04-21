@@ -12,6 +12,7 @@
 #header{
 	display:flex;
 	justify-content:center;
+	text-align:center;
 	border:1px solid black;
 	margin-top:20px;
 	background-color:#011e29;
