@@ -1,1 +1,66 @@
 /*  your css code here. If applicable */
+*{
+    font-size: 25px;
+}
+
+.container{
+    height: 100vh;
+    width:100%;
+    background-color:#F5F5F5;
+}
+
+#header{
+	display:flex;
+	justify-content:center;
+	border:1px solid black;
+	margin-top:20px;
+	background-color:#011e29;
+	color:white;
+}
+
+h2{
+    display: flex;
+    justify-content:center;
+}
+
+#body{
+	display:flex;
+    flex-direction: row;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar{
+    padding:20px;
+    margin: 10px;
+    width:20%;
+	border:none;
+    margin-bottom: 100%;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.article{
+    padding:20px;
+    margin: 10px;
+    width:50%;
+    border:none;
+    margin-bottom: 100%;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.images{
+    margin: 10px;
+    padding:20px;
+    margin-right: 20px;
+    width: 30%;
+    margin-bottom: 100%;
+    background-color: white;
+    border:none;
+    border-radius: 5px;
+}
+
+.img-bar{
+    padding-left: 70px;
+}
